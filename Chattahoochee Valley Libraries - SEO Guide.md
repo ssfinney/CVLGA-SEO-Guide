@@ -266,7 +266,9 @@ Here's the HTML with that added markup:
 <div class="views-row views-row-1 views-row-odd views-row-first" itemscope itemtype="http://schema.org/Event">
 	<div class="views-field views-field-title">
 		<span class="field-content">
-			<a itemprop="url" href="http://meetings.cvrls.net/evanced/lib/eventsignup.asp?ID=14589">Beginner's Internet Class</a>
+			<a itemprop="url" href="http://meetings.cvrls.net/evanced/lib/eventsignup.asp?ID=14589">
+				Beginner's Internet Class
+			</a>
 		</span>
 	</div>  
 	<div class="views-field views-field-description">
@@ -292,6 +294,10 @@ Here's the HTML with that added markup:
 <meta itemprop="url" content="http://meetings.cvrls.net/evanced/lib/eventsignup.asp?ID=14589">
 ```
 
+<br>
+<br>
+<br>
+
 I know, there's a lot of extra code here. You'll have to decide if this is right for you, but this is a good example of structured data in HTML.
 
 Here's a breakdown of the changes:
@@ -300,8 +306,12 @@ Here's a breakdown of the changes:
  * Each important part of the date's data is wrapped in a ```<span>``` with some custom attributes (like itemprop, itemscope, etc).
  * At the very bottom, I've added a new ```<meta>``` tag to let Google know what the event's URL is on the website.
 
- 
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # Thank you!
  
-Thanks for reading. I'll keep updating this as I have time, but you can always find an open-source copy of this PDF on GitHub at: [https://github.com/ssfinney/CVLGA-SEO-Guide](https://github.com/ssfinney/CVLGA-SEO-Guide).
+Thanks for reading. I'll keep updating this as I have time, but you can always find an open-source copy of this PDF on GitHub at: [https://github.com/ssfinney/CVLGA-SEO-Guide](https://github.com/ssfinney/CVLGA-SEO-Guide). Please also feel free to contribute to this guide there.
